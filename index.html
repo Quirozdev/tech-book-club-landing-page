@@ -13,71 +13,81 @@
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
-    <header class="header">
-      <a href="/" class="logo">
-        <img src="/assets/images/logo.svg" alt="Logo" />
-      </a>
-    </header>
     <main class="main">
-      <section id="hero">
-        <div class="hero-container">
-          <div class="hero-text-container">
-            <h1 class="text-preset-1 text-gradient">
-              Join the ultimate tech book club
-            </h1>
-            <p class="text-preset-5 hero-text">
-              Turn your reading time into learning time with fellow tech
-              enthusiasts. Get curated recommendations, join vibrant
-              discussions, and level up your skills one chapter at a time.
-            </p>
-          </div>
-          <div class="reviews-action-container">
-            <button class="primary-button">
-              <span class="text-preset-6">Review Membership Options</span>
-              <img src="/assets/images/icon-arrow-down.svg" alt="Arrow down" />
-            </button>
-            <div class="reviews-container">
-              <img
-                src="/assets/images/image-avatars.webp"
-                alt="Avatars of 3 people"
-                class="avatars-image"
-              />
-              <div class="stars-and-text-container">
-                <div class="starts-container">
-                  <img src="/assets/images/icon-star.svg" alt="Star" />
-                  <img src="/assets/images/icon-star.svg" alt="Star" />
-                  <img src="/assets/images/icon-star.svg" alt="Star" />
-                  <img src="/assets/images/icon-star.svg" alt="Star" />
-                  <img src="/assets/images/icon-star.svg" alt="Star" />
+      <div class="hero-wrapper">
+        <div
+          src="/assets/images/pattern-light-bg.svg"
+          alt="Light pattern background"
+          class="light-pattern-bg"
+        ></div>
+        <header class="header">
+          <a href="/" class="logo">
+            <img src="/assets/images/logo.svg" alt="Logo" />
+          </a>
+        </header>
+        <section id="hero">
+          <div class="hero-container">
+            <div class="hero-text-container">
+              <h1 class="text-preset-1 text-gradient">
+                Join the ultimate tech book club
+              </h1>
+              <p class="text-preset-5 hero-text">
+                Turn your reading time into learning time with fellow tech
+                enthusiasts. Get curated recommendations, join vibrant
+                discussions, and level up your skills one chapter at a time.
+              </p>
+            </div>
+            <div class="reviews-action-container">
+              <button class="primary-button">
+                <span class="text-preset-6">Review Membership Options</span>
+                <img
+                  src="/assets/images/icon-arrow-down.svg"
+                  alt="Arrow down"
+                />
+              </button>
+              <div class="reviews-container">
+                <img
+                  src="/assets/images/image-avatars.webp"
+                  alt="Avatars of 3 people"
+                  class="avatars-image"
+                />
+                <div class="stars-and-text-container">
+                  <div class="starts-container">
+                    <img src="/assets/images/icon-star.svg" alt="Star" />
+                    <img src="/assets/images/icon-star.svg" alt="Star" />
+                    <img src="/assets/images/icon-star.svg" alt="Star" />
+                    <img src="/assets/images/icon-star.svg" alt="Star" />
+                    <img src="/assets/images/icon-star.svg" alt="Star" />
+                  </div>
+                  <p class="total-reviews-text text-preset-7">
+                    200+ developers joined already
+                  </p>
                 </div>
-                <p class="total-reviews-text text-preset-7">
-                  200+ developers joined already
-                </p>
               </div>
             </div>
           </div>
-        </div>
-        <picture>
-          <source
-            media="(min-width: 1440px)"
-            srcset="/assets/images/image-hero-desktop.webp"
-          />
-          <source
-            media="(min-width: 768px)"
-            srcset="/assets/images/image-hero-tablet.webp"
-          />
+          <picture>
+            <source
+              media="(min-width: 1440px)"
+              srcset="/assets/images/image-hero-desktop.webp"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="/assets/images/image-hero-tablet.webp"
+            />
+            <img
+              src="/assets/images/image-hero-mobile.webp"
+              alt="People reading and analyzing"
+              class="hero-image"
+            />
+          </picture>
           <img
-            src="/assets/images/image-hero-mobile.webp"
-            alt="People reading and analyzing"
-            class="hero-image"
+            src="/assets/images/pattern-glow.svg"
+            alt="Glow pattern"
+            id="glow-pattern"
           />
-        </picture>
-        <img
-          src="/assets/images/pattern-glow.svg"
-          alt="Glow pattern"
-          id="glow-pattern"
-        />
-      </section>
+        </section>
+      </div>
       <section id="read-grow-section">
         <div class="read-grow-container">
           <h2 class="read-grow-subtitle text-preset-2">

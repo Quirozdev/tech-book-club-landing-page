@@ -168,8 +168,7 @@ svg {
 body {
   min-height: 100vh;
   overflow-x: hidden;
-  background-image: url("/assets/images/pattern-light-bg.svg");
-  background-color: var(--neutral-100);
+  background-color: var(--neutral-0);
 }
 
 .header {
@@ -188,13 +187,29 @@ body {
 }
 
 #hero {
+  position: relative;
   overflow-y: clip;
   padding-top: var(--spacing-600);
   padding-bottom: var(--spacing-1000);
-  position: relative;
   display: flex;
   flex-direction: column;
   row-gap: var(--spacing-800);
+}
+
+.hero-wrapper {
+  position: relative;
+  overflow-x: clip;
+}
+
+.light-pattern-bg {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 100vw;
+  transform: translateX(-50%);
+  height: 100%;
+  background-image: url("/assets/images/pattern-light-bg.svg");
+  z-index: -1;
 }
 
 .hero-container {
