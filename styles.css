@@ -279,7 +279,7 @@ body {
   row-gap: var(--spacing-050);
 }
 
-.starts-container {
+.stars-container {
   display: flex;
   align-items: center;
 }
@@ -467,7 +467,7 @@ body {
 .memberships-container {
   display: grid;
   gap: var(--spacing-300);
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .membership-card {
@@ -533,6 +533,24 @@ body {
 
 .membership-card .primary-button {
   width: 100%;
+}
+
+#review-section {
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--spacing-400);
+}
+
+.stars-container.separated-stars {
+  column-gap: var(--spacing-075);
+}
+
+.review-text {
+  color: var(--neutral-900);
+}
+
+.reviewer {
+  color: var(--neutral-700);
 }
 
 /* Tablet */
@@ -691,6 +709,9 @@ body {
   }
 
   #membership-section {
+    min-width: 970px;
+    max-width: 970px;
+    margin: 0 auto;
     row-gap: var(--spacing-800);
   }
 
@@ -704,5 +725,13 @@ body {
 
   .membership-card.highlight-membership {
     padding: var(--spacing-500) var(--spacing-300);
+  }
+
+  #review-section {
+    min-width: 970px;
+    max-width: 970px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
   }
 }
