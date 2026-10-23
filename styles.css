@@ -291,6 +291,7 @@ body {
 }
 
 #glow-pattern {
+  display: none;
   position: absolute;
   width: 684px;
   height: 684px;
@@ -338,6 +339,51 @@ body {
   border-radius: var(--radius-24);
 }
 
+#not-average-section {
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--spacing-500);
+}
+
+.not-average-text-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--spacing-300);
+}
+
+.not-average-title {
+  color: var(--neutral-900);
+}
+
+.not-average-text {
+  color: var(--neutral-700);
+}
+
+.not-average-image {
+  width: 100%;
+  border-radius: var(--radius-24);
+}
+
+.club-word-container {
+  position: relative;
+}
+
+.circle-icon {
+  position: absolute;
+  top: calc(-1 * var(--spacing-025));
+  left: calc(-1 * var(--spacing-100));
+  width: 120%;
+  max-width: none;
+}
+
+.not-average-img-container {
+  position: relative;
+}
+
+.technologies-img {
+  display: none;
+}
+
 /* Tablet */
 @media (min-width: 768px) {
   .text-preset-1 {
@@ -370,12 +416,24 @@ body {
     padding-top: var(--spacing-800);
   }
 
+  #glow-pattern {
+    display: block;
+  }
+
   .read-grow-container {
     row-gap: var(--spacing-400);
   }
 
   .read-grow-checklist {
     row-gap: var(--spacing-300);
+  }
+
+  .technologies-img {
+    display: block;
+    position: absolute;
+    z-index: 10;
+    bottom: 50px;
+    right: 50px;
   }
 }
 
@@ -402,13 +460,36 @@ body {
     align-items: center;
   }
 
-  .hero-container {
-    max-width: 570px;
+  .hero-image {
+    min-width: 540px;
+    max-width: 540px;
   }
 
   #read-grow-section {
     flex-direction: row-reverse;
     column-gap: var(--spacing-1000);
     align-items: center;
+  }
+
+  .read-grow-image {
+    min-width: 560px;
+    max-width: 560px;
+  }
+
+  #not-average-section {
+    flex-direction: row;
+    column-gap: var(--spacing-1000);
+    align-items: center;
+  }
+
+  .not-average-image {
+    min-width: 560px;
+    max-width: 560px;
+  }
+
+  .technologies-img {
+    right: auto;
+    left: calc(-1 * var(--spacing-1000));
+    bottom: var(--spacing-400);
   }
 }
