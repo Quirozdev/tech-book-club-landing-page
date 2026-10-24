@@ -240,7 +240,7 @@ body {
   row-gap: var(--spacing-300);
 }
 
-.primary-button {
+.button {
   width: fit-content;
   cursor: pointer;
   display: flex;
@@ -250,6 +250,9 @@ body {
   align-items: center;
   padding: var(--spacing-250) var(--spacing-300);
   border-radius: var(--radius-8);
+}
+
+.primary-button {
   color: var(--neutral-900);
   background-color: var(--light-salmon-50);
   border: 2px solid var(--neutral-900);
@@ -593,15 +596,6 @@ body {
 }
 
 .alternate-button {
-  width: fit-content;
-  cursor: pointer;
-  display: flex;
-  text-transform: uppercase;
-  column-gap: var(--spacing-200);
-  justify-content: center;
-  align-items: center;
-  padding: var(--spacing-250) var(--spacing-300);
-  border-radius: var(--radius-8);
   color: var(--neutral-0);
   background-color: transparent;
   border: 2px solid var(--neutral-0);
