@@ -196,7 +196,7 @@ body {
   padding: 0 var(--spacing-200) 0 var(--spacing-200);
 }
 
-#hero {
+.hero {
   position: relative;
   padding-top: var(--spacing-600);
   padding-bottom: var(--spacing-1000);
@@ -310,7 +310,7 @@ body {
   transform: translate(50%, 25%);
 }
 
-#read-grow-section {
+.read-grow-section {
   display: flex;
   flex-direction: column;
   row-gap: var(--spacing-500);
@@ -348,7 +348,7 @@ body {
   border-radius: var(--radius-24);
 }
 
-#not-average-section {
+.not-average-section {
   display: flex;
   flex-direction: column;
   row-gap: var(--spacing-500);
@@ -393,7 +393,7 @@ body {
   display: none;
 }
 
-#tech-journey-section {
+.tech-journey-section {
   isolation: isolate;
   overflow: clip;
   border-radius: var(--radius-12);
@@ -460,7 +460,7 @@ body {
   transform: translate(35%, 35%);
 }
 
-#membership-section {
+.membership-section {
   display: flex;
   flex-direction: column;
   row-gap: var(--spacing-300);
@@ -541,7 +541,7 @@ body {
   width: 100%;
 }
 
-#review-section {
+.review-section {
   display: flex;
   flex-direction: column;
   row-gap: var(--spacing-400);
@@ -559,7 +559,7 @@ body {
   color: var(--neutral-700);
 }
 
-#footer {
+.footer {
   margin-top: var(--spacing-800);
   background-color: var(--neutral-900);
   padding: var(--spacing-600) var(--spacing-200) 0 var(--spacing-200);
@@ -679,7 +679,7 @@ body {
     padding: 0 var(--spacing-400) 0 var(--spacing-400);
   }
 
-  #hero {
+  .hero {
     padding-top: var(--spacing-800);
   }
 
@@ -703,7 +703,7 @@ body {
     right: 50px;
   }
 
-  #tech-journey-section {
+  .tech-journey-section {
     row-gap: var(--spacing-600);
     padding: var(--spacing-1000) var(--spacing-400);
   }
@@ -721,11 +721,11 @@ body {
     height: var(--spacing-500);
   }
 
-  #membership-section {
+  .membership-section {
     row-gap: var(--spacing-500);
   }
 
-  #footer {
+  .footer {
     margin-top: var(--spacing-1000);
   }
 
@@ -751,7 +751,7 @@ body {
     margin: 0 auto;
   }
 
-  #hero {
+  .hero {
     overflow-y: clip;
     padding-top: var(--spacing-1000);
     flex-direction: row;
@@ -764,7 +764,7 @@ body {
     max-width: 540px;
   }
 
-  #read-grow-section {
+  .read-grow-section {
     flex-direction: row-reverse;
     column-gap: var(--spacing-1000);
     align-items: center;
@@ -775,7 +775,7 @@ body {
     max-width: 560px;
   }
 
-  #not-average-section {
+  .not-average-section {
     flex-direction: row;
     column-gap: var(--spacing-1000);
     align-items: center;
@@ -792,7 +792,7 @@ body {
     bottom: var(--spacing-400);
   }
 
-  #tech-journey-section {
+  .tech-journey-section {
     row-gap: var(--spacing-800);
     padding: var(--spacing-1000) var(--spacing-800);
   }
@@ -815,7 +815,7 @@ body {
     transform: translate(35%, 50%);
   }
 
-  #membership-section {
+  .membership-section {
     min-width: 970px;
     max-width: 970px;
     margin: 0 auto;
@@ -834,7 +834,7 @@ body {
     padding: var(--spacing-500) var(--spacing-300);
   }
 
-  #review-section {
+  .review-section {
     min-width: 970px;
     max-width: 970px;
     margin: 0 auto;
@@ -842,7 +842,7 @@ body {
     text-align: center;
   }
 
-  #footer {
+  .footer {
     margin-top: 120px;
   }
 }
