@@ -473,7 +473,7 @@ body {
 .memberships-container {
   display: grid;
   gap: var(--spacing-300);
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
 
 .membership-card {
@@ -723,6 +723,10 @@ body {
 
   .membership-section {
     row-gap: var(--spacing-500);
+  }
+
+  .memberships-container {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
 
   .footer {
