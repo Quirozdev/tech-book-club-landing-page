@@ -5,7 +5,7 @@ This is a solution to the [Tech book club landing page challenge on Frontend Men
 [Live Site Demo](https://quirozdev.github.io/tech-book-club-landing-page/)
 
 Demo
-<img src="./demo-gif.gif" alt="Demo GIF" />
+<img src="./docs/demo-gif.gif" alt="Demo GIF" />
 
 ## Table of contents
 
