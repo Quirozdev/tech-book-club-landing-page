@@ -1,6 +1,7 @@
 @font-face {
   font-family: "Inter";
   font-style: normal;
+  font-weight: 100 900;
   src: url("./assets/fonts/inter/Inter-VariableFont_opsz,wght.ttf")
     format("truetype");
 }
@@ -8,6 +9,7 @@
 @font-face {
   font-family: "Inter";
   font-style: italic;
+  font-weight: 100 900;
   src: url("./assets/fonts/inter/Inter-Italic-VariableFont_opsz,wght.ttf")
     format("truetype");
 }
@@ -15,6 +17,7 @@
 @font-face {
   font-family: "Martian Mono";
   font-style: normal;
+  font-weight: 100 800;
   src: url("./assets/fonts/martian-mono/MartianMono-VariableFont_wdth,wght.ttf")
     format("truetype");
 }
